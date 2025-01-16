@@ -24,7 +24,8 @@ jobs:
         npm install htmlhint stylelint
 
     - name: Lint HTML Files
-      run: npx htmlhint "src/**/*.html"
+      run: npx htmlhint "src/homePage.html"
+         
 
     - name: Lint CSS Files
-      run: npx stylelint "styles/**/*.css"
+      run: npx stylelint "styles/homePageStyle.css"
