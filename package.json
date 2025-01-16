@@ -1,0 +1,18 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "linting checker",
+  "main": "index.js",
+  "scripts": {
+    "lint:html": "npx htmlhint 'src/**/*.html'",
+    "lint:css": "npx stylelint 'styles/**/*.css'",
+    "lint": "npm run lint:html && npm run lint:css"
+  },
+  "author": "l1f21bsse0457",
+  "license": "MIT",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^16.13.2",
+    "stylelint-config-standard": "^37.0.0"
+  }
+}
